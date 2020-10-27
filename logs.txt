@@ -1,0 +1,10 @@
+
+2020-10-27 17:07:53 ERROR StudentDaoImpl:81 - Can't create connection java.sql.SQLException: No database selected
+2020-10-27 17:10:41 ERROR StudentDaoImpl:81 - Can't create connection java.sql.SQLException: No database selected
+2020-10-27 17:11:13 ERROR StudentDaoImpl:81 - Can't create connection java.sql.SQLException: No database selected
+2020-10-27 17:12:04 ERROR StudentDaoImpl:82 - Can't create connection java.sql.SQLException: No database selected
+2020-10-27 17:21:07 ERROR StudentDaoImpl:64 - Can't create connection java.sql.SQLException: No database selected
+2020-10-27 17:59:33 ERROR StudentDaoImpl:64 - Can't create connection java.sql.SQLException: No database selected
+2020-10-27 18:00:22 ERROR StudentDaoImpl:64 - Can't create connection java.sql.SQLException: No database selected
+2020-10-27 18:00:27 ERROR StudentDaoImpl:64 - Can't create connection java.sql.SQLException: No database selected
+2020-10-27 18:03:21 ERROR StudentDaoImpl:78 - Can't map student from result set java.sql.SQLException: Before start of result set
