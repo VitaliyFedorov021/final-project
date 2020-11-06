@@ -1,10 +1,267 @@
-
-2020-10-27 17:07:53 ERROR StudentDaoImpl:81 - Can't create connection java.sql.SQLException: No database selected
-2020-10-27 17:10:41 ERROR StudentDaoImpl:81 - Can't create connection java.sql.SQLException: No database selected
-2020-10-27 17:11:13 ERROR StudentDaoImpl:81 - Can't create connection java.sql.SQLException: No database selected
-2020-10-27 17:12:04 ERROR StudentDaoImpl:82 - Can't create connection java.sql.SQLException: No database selected
-2020-10-27 17:21:07 ERROR StudentDaoImpl:64 - Can't create connection java.sql.SQLException: No database selected
-2020-10-27 17:59:33 ERROR StudentDaoImpl:64 - Can't create connection java.sql.SQLException: No database selected
-2020-10-27 18:00:22 ERROR StudentDaoImpl:64 - Can't create connection java.sql.SQLException: No database selected
-2020-10-27 18:00:27 ERROR StudentDaoImpl:64 - Can't create connection java.sql.SQLException: No database selected
-2020-10-27 18:03:21 ERROR StudentDaoImpl:78 - Can't map student from result set java.sql.SQLException: Before start of result set
+2020-11-03 23:23:12 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-03 23:23:20 INFO  TeacherDaoImpl:43 - Created connection and statement
+2020-11-03 23:23:20 INFO  TeacherDaoImpl:54 - Inserting into DB teachers
+2020-11-03 23:23:46 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-03 23:23:52 INFO  TeacherDaoImpl:43 - Created connection and statement
+2020-11-03 23:23:52 INFO  TeacherDaoImpl:54 - Inserting into DB teachers
+2020-11-04 11:41:35 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 11:41:40 INFO  CourseDaoImpl:109 - Created connection and statement
+2020-11-04 11:41:43 INFO  CourseDaoImpl:165 - Created connection and statement
+2020-11-04 11:41:45 INFO  CourseDaoImpl:186 - Created connection and statement
+2020-11-04 11:41:51 INFO  CourseDaoImpl:208 - Created connection and statement
+2020-11-04 11:42:53 INFO  CourseDaoImpl:109 - Created connection and statement
+2020-11-04 11:43:06 INFO  CourseDaoImpl:109 - Created connection and statement
+2020-11-04 11:43:20 INFO  CourseDaoImpl:109 - Created connection and statement
+2020-11-04 11:43:30 INFO  CourseDaoImpl:109 - Created connection and statement
+2020-11-04 11:43:41 INFO  CourseDaoImpl:109 - Created connection and statement
+2020-11-04 11:44:18 INFO  StudentDaoImpl:102 - Created connection and statement
+2020-11-04 11:44:19 INFO  StudentDaoImpl:102 - Created connection and statement
+2020-11-04 11:44:19 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 11:44:23 INFO  StudentDaoImpl:102 - Created connection and statement
+2020-11-04 11:44:23 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 11:44:27 INFO  StudentDaoImpl:102 - Created connection and statement
+2020-11-04 11:44:27 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 11:44:29 INFO  CourseDaoImpl:230 - Created connection and statement
+2020-11-04 11:44:33 INFO  CourseDaoImpl:252 - Created connection and statement
+2020-11-04 11:44:34 INFO  CourseDaoImpl:275 - Created connection and statement
+2020-11-04 11:44:36 INFO  CourseDaoImpl:129 - Created connection and statement
+2020-11-04 13:35:11 INFO  JournalDaoImpl:75 - Created connection and statement
+2020-11-04 13:35:15 INFO  JournalDaoImpl:117 - Created connection and statement
+2020-11-04 13:35:21 INFO  JournalDaoImpl:95 - Created connection and statement
+2020-11-04 13:35:21 ERROR JournalDaoImpl:107 - Can't create connection java.sql.SQLSyntaxErrorException: Unknown column 'studentLogin' in 'where clause'
+2020-11-04 14:05:52 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:05:55 INFO  TeacherDaoImpl:43 - Created connection and statement
+2020-11-04 14:05:56 INFO  TeacherDaoImpl:54 - Inserting into DB teachers
+2020-11-04 14:11:02 INFO  CourseDaoImpl:66 - Created connection and statement
+2020-11-04 14:11:02 INFO  ThemeDaoImpl:35 - Created connection and statement
+2020-11-04 14:11:02 INFO  ThemeDaoImpl:39 - Inserting into DB themes
+2020-11-04 14:11:02 INFO  CourseDaoImpl:74 - Inserting into DB courses
+2020-11-04 14:11:06 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:12:15 INFO  CourseDaoImpl:297 - Created connection and statement
+2020-11-04 14:12:15 ERROR CourseDaoImpl:312 - Can't create connection
+2020-11-04 14:12:27 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:12:30 INFO  TeacherDaoImpl:43 - Created connection and statement
+2020-11-04 14:12:30 INFO  TeacherDaoImpl:54 - Inserting into DB teachers
+2020-11-04 14:15:24 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:15:44 INFO  CourseDaoImpl:297 - Created connection and statement
+2020-11-04 14:15:44 ERROR CourseDaoImpl:312 - Can't create connection
+2020-11-04 14:15:49 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:15:51 INFO  CourseDaoImpl:109 - Created connection and statement
+2020-11-04 14:17:19 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:17:39 INFO  CourseDaoImpl:297 - Created connection and statement
+2020-11-04 14:19:12 ERROR CourseDaoImpl:312 - Can't create connection
+2020-11-04 14:21:23 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:21:42 INFO  CourseDaoImpl:297 - Created connection and statement
+2020-11-04 14:21:42 INFO  ThemeDaoImpl:35 - Created connection and statement
+2020-11-04 14:21:42 INFO  ThemeDaoImpl:39 - Inserting into DB themes
+2020-11-04 14:21:42 INFO  CourseDaoImpl:309 - Updating in DB courses
+2020-11-04 14:21:45 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:21:49 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 14:22:07 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 14:22:09 INFO  JournalDaoImpl:75 - Created connection and statement
+2020-11-04 14:22:12 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:23:48 INFO  CourseDaoImpl:88 - Created connection and statement
+2020-11-04 14:23:50 INFO  TeacherDaoImpl:43 - Created connection and statement
+2020-11-04 14:23:50 INFO  TeacherDaoImpl:54 - Inserting into DB teachers
+2020-11-04 14:54:14 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 14:54:19 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 14:54:53 INFO  JournalDaoImpl:75 - Created connection and statement
+2020-11-04 23:26:33 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:26:38 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:26:43 INFO  CourseDaoImpl:232 - Created connection and statement
+2020-11-04 23:26:43 ERROR CourseDaoImpl:238 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:29:01 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:29:04 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:29:05 INFO  CourseDaoImpl:232 - Created connection and statement
+2020-11-04 23:29:05 ERROR CourseDaoImpl:238 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:29:13 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:29:15 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:29:19 INFO  CourseDaoImpl:232 - Created connection and statement
+2020-11-04 23:29:19 ERROR CourseDaoImpl:238 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:29:46 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:29:50 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:29:57 INFO  CourseDaoImpl:232 - Created connection and statement
+2020-11-04 23:29:57 ERROR CourseDaoImpl:238 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:34:55 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:36:15 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:36:37 INFO  CourseDaoImpl:232 - Created connection and statement
+2020-11-04 23:36:37 ERROR CourseDaoImpl:238 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:36:57 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:37:04 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:37:11 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:37:22 INFO  CourseDaoImpl:232 - Created connection and statement
+2020-11-04 23:37:22 ERROR CourseDaoImpl:238 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:38:06 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:38:08 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:38:11 INFO  CourseDaoImpl:232 - Created connection and statement
+2020-11-04 23:38:11 ERROR CourseDaoImpl:238 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:23 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:41:25 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:41:27 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:27 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:27 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:29 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:29 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:29 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:29 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:29 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:29 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:30 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:30 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:30 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:31 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:31 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:31 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:32 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:32 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:32 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:32 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:32 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:32 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:33 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:33 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:33 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:33 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:33 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:33 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:33 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:33 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:33 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:41:34 INFO  CourseDaoImpl:231 - Created connection and statement
+2020-11-04 23:41:34 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:41:34 ERROR CourseDaoImpl:157 - Can't create connection java.sql.SQLException: Before start of result set
+2020-11-04 23:42:17 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:42:19 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:42:20 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:42:20 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:42:20 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:44:45 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:44:53 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:45:06 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:45:06 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:45:49 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:47:28 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:47:30 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:47:31 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:47:31 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:47:31 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:48:00 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:48:03 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:48:10 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:48:11 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:48:15 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:48:27 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:48:30 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:48:39 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:48:39 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:48:50 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:50:19 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:50:20 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:50:21 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:50:21 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:50:21 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:50:45 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:50:46 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:50:47 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:50:47 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:50:47 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:52:52 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:52:54 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:52:55 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:52:55 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:52:55 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:54:53 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:54:55 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:54:56 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:54:56 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:54:56 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:54:58 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-04 23:55:02 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:55:02 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:55:02 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:55:06 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-04 23:55:18 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:55:19 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:55:20 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:55:20 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:55:20 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:55:24 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-04 23:55:47 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:55:52 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:55:57 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:55:58 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:56:00 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:56:00 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:56:00 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:56:03 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-04 23:56:45 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-04 23:56:47 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-04 23:56:48 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-04 23:56:48 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-04 23:56:48 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-04 23:56:51 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-05 09:53:53 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-05 09:53:54 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-05 09:53:57 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-05 09:53:57 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-05 09:53:57 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-05 09:54:01 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-05 09:54:38 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-05 09:54:39 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-05 09:54:41 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-05 09:54:41 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-05 09:55:05 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-05 09:55:34 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-05 09:59:32 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-05 09:59:34 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-05 09:59:35 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-05 09:59:35 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-05 09:59:41 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-05 09:59:57 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-05 10:03:03 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-05 10:03:04 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-05 10:03:07 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-05 10:03:07 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-05 10:03:07 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-05 10:03:11 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-05 10:03:14 INFO  JournalDaoImpl:47 - Created connection and statement
+2020-11-05 10:03:32 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-05 10:03:34 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-05 10:03:35 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-05 10:03:35 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-05 10:03:40 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-05 10:03:47 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-05 10:04:25 INFO  JournalDaoImpl:47 - Created connection and statement
+2020-11-05 10:07:10 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-05 10:07:16 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-05 10:07:18 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-05 10:07:18 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-05 10:07:18 INFO  StudentDaoImpl:163 - Created connection and statement
+2020-11-05 10:07:22 INFO  StudentDaoImpl:104 - Created connection and statement
+2020-11-05 10:07:24 INFO  JournalDaoImpl:47 - Created connection and statement
+2020-11-05 10:59:09 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-05 10:59:11 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-05 10:59:12 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-05 10:59:12 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-05 10:59:12 INFO  StudentDaoImpl:188 - Created connection and statement
+2020-11-05 10:59:15 INFO  StudentDaoImpl:129 - Created connection and statement
+2020-11-05 10:59:15 INFO  StudentDaoImpl:105 - Created connection and statement
+2020-11-05 10:59:18 INFO  JournalDaoImpl:47 - Created connection and statement
+2020-11-05 10:59:18 INFO  JournalDaoImpl:60 - Inserting in DB journal
+2020-11-05 10:59:22 INFO  CourseDaoImpl:233 - Created connection and statement
+2020-11-05 10:59:22 INFO  CourseDaoImpl:151 - Created connection and statement
+2020-11-05 10:59:22 INFO  StudentDaoImpl:188 - Created connection and statement
+2020-11-05 10:59:29 INFO  StudentDaoImpl:129 - Created connection and statement
+2020-11-05 10:59:29 INFO  StudentDaoImpl:105 - Created connection and statement
+2020-11-05 10:59:32 INFO  JournalDaoImpl:47 - Created connection and statement
+2020-11-05 10:59:32 INFO  JournalDaoImpl:60 - Inserting in DB journal
+2020-11-06 10:44:30 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-06 10:44:32 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-06 10:44:33 INFO  JournalDaoImpl:75 - Created connection and statement
+2020-11-06 10:44:35 INFO  JournalDaoImpl:75 - Created connection and statement
+2020-11-06 10:44:44 INFO  JournalDaoImpl:117 - Created connection and statement
+2020-11-06 10:44:47 INFO  JournalDaoImpl:117 - Created connection and statement
+2020-11-06 10:44:50 INFO  JournalDaoImpl:117 - Created connection and statement
+2020-11-06 10:45:52 INFO  TeacherDaoImpl:88 - Created connection and statement
+2020-11-06 10:45:53 INFO  TeacherDaoImpl:107 - Created connection and statement
+2020-11-06 10:45:55 INFO  JournalDaoImpl:117 - Created connection and statement

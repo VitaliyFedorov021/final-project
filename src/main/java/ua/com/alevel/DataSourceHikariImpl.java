@@ -2,7 +2,7 @@ package ua.com.alevel;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
-import org.apache.log4j.Logger;
+import ua.com.alevel.util.PropertiesReader;
 
 import java.sql.Connection;
 import java.sql.SQLException;

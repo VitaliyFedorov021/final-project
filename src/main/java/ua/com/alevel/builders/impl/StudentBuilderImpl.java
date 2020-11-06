@@ -4,8 +4,14 @@ import ua.com.alevel.builders.StudentBuilder;
 import ua.com.alevel.dto.Student;
 
 public class StudentBuilderImpl implements StudentBuilder {
-    private int courseId;
+    private int courseId, id;
     private String name, surname, state, login;
+
+    @Override
+    public StudentBuilder setId(int id) {
+        this.id = id;
+        return this;
+    }
 
     @Override
     public StudentBuilder setCourseId(int courseId) {
@@ -39,7 +45,7 @@ public class StudentBuilderImpl implements StudentBuilder {
 
     @Override
     public Student build() {
-        return new Student(courseId, name, surname, state, login);
+        return new Student(courseId, id, name, surname, state, login);
     }
 
 

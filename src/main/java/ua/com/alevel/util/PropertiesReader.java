@@ -1,4 +1,4 @@
-package ua.com.alevel;
+package ua.com.alevel.util;
 
 import org.apache.log4j.Logger;
 

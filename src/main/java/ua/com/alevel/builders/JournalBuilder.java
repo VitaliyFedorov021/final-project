@@ -7,7 +7,7 @@ public interface JournalBuilder {
 
     JournalBuilder setTeacherId(int teacherId);
 
-    JournalBuilder setStudentId(int studentId);
+    JournalBuilder setStudentId(int id);
 
     JournalBuilder setMark(int mark);
 

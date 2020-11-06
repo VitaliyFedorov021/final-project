@@ -5,6 +5,8 @@ import ua.com.alevel.dto.Student;
 public interface StudentBuilder {
     StudentBuilder setCourseId(int courseId);
 
+    StudentBuilder setId(int id);
+
     StudentBuilder setName(String name);
 
     StudentBuilder setSurname(String surname);

@@ -1,14 +1,8 @@
 package ua.com.alevel.dto;
 
 public class Journal {
-    private final int courseId, teacherId, studentId, mark;
-
-    public Journal(int courseId, int teacherId, int studentId, int mark) {
-        this.courseId = courseId;
-        this.teacherId = teacherId;
-        this.studentId = studentId;
-        this.mark = mark;
-    }
+    private final int courseId, teacherId, mark;
+    private final int studentId;
 
     public int getCourseId() {
         return courseId;
@@ -18,12 +12,12 @@ public class Journal {
         return teacherId;
     }
 
-    public int getStudentId() {
-        return studentId;
-    }
-
     public int getMark() {
         return mark;
+    }
+
+    public int getStudentId() {
+        return studentId;
     }
 
     @Override
@@ -31,8 +25,15 @@ public class Journal {
         return "Journal{" +
                 "courseId=" + courseId +
                 ", teacherId=" + teacherId +
-                ", studentId=" + studentId +
                 ", mark=" + mark +
+                ", studentId=" + studentId +
                 '}';
+    }
+
+    public Journal(int courseId, int teacherId, int studentId, int mark) {
+        this.courseId = courseId;
+        this.teacherId = teacherId;
+        this.mark = mark;
+        this.studentId = studentId;
     }
 }

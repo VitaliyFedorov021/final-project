@@ -4,8 +4,8 @@ import ua.com.alevel.builders.JournalBuilder;
 import ua.com.alevel.dto.Journal;
 
 public class JournalBuilderImpl implements JournalBuilder {
-    private int courseId, teacherId, studentId, mark;
-
+    private int courseId, teacherId, mark;
+    private int studentId;
     @Override
     public JournalBuilder setCourseId(int courseId) {
         this.courseId = courseId;
@@ -19,8 +19,8 @@ public class JournalBuilderImpl implements JournalBuilder {
     }
 
     @Override
-    public JournalBuilder setStudentId(int studentId) {
-        this.studentId = studentId;
+    public JournalBuilder setStudentId(int id) {
+        this.studentId = id;
         return this;
     }
 

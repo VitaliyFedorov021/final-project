@@ -1,15 +1,18 @@
 package ua.com.alevel.dao;
 
 import ua.com.alevel.dto.Course;
+import ua.com.alevel.exceptions.NoDataInDBException;
 
 import java.util.List;
 
 public interface CourseDao {
-    void addCourse(Course course);
+    boolean addCourse(Course course);
 
     List<Course> selectAll();
 
-    Course selectById(int id);
+    List<Course> selectAll(boolean useSort);
+
+    Course selectById(int id) throws NoDataInDBException;
 
     List<Course> selectAllNotStarted();
 
@@ -17,7 +20,19 @@ public interface CourseDao {
 
     List<Course> selectAllEnded();
 
-    void updateCourse(Course course);
+    Course selectCourseByTeacherId(int teacherId) throws NoDataInDBException;
 
-    void deleteCourse(int id);
+    List<Course> selectAll(String login, boolean useSort);
+
+    List<Course> selectAllNotStarted(String login);
+
+    List<Course> selectAllStarted(String login);
+
+    List<Course> selectAllEnded(String login);
+
+    boolean updateCourse(Course course, int id) throws NoDataInDBException;
+
+    boolean deleteCourse(int id) throws NoDataInDBException;
+
+    List<Course> selectAllByTheme(String theme) throws NoDataInDBException;
 }
